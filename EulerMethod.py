@@ -11,8 +11,9 @@ def our_ode(x,t):
 x0 = 1
 t = np.linspace(0,5)
 x = odeint(our_ode,x0,t)
-X = solve_ode(our_ode,x0,t,2**-3)
+X = solve_ode(our_ode,x0,t,2**-3,'Euler')
 plt.plot(t,x)
 plt.plot(t,X)
 
 plt.show()
+ 
