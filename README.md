@@ -1,2 +1,0 @@
-# bouncing
-Assignment 1
